@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplos de utilização de tags</title>
+
+    <style>
+      * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px calc(100vh - 200px) 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: rgb(51, 211, 179)">Header</header>
+    <main>
+      <h1>Exemplos de utilização de tags</h1>
+      <blockquote>
+        Nessa pagina temos alguns exenplos de utilações de tags html
+      </blockquote>
+      <img
+        src="https://i.im.ge/2023/09/20/6JbmDm.banner3.png"
+        alt="progamação"
+        width="400"
+      />
+
+      <img
+        src="https://i.im.ge/2023/09/20/6JgoO6.jogo1.png"
+        alt="progamação"
+        width="250"
+      />
+
+      <form>
+        <label for="login">Login: <input id="login" type="text" /></label>
+        <label for="senha">Senha: <input id="senha" type="password" /></label>
+      </form>
+    </main>
+    <footer style="background-color: rgb(165, 42, 93)">Footer</footer>
+  </body>
+</html>
